@@ -1,2 +1,6 @@
-2024/03/27-19:31:00.967 8ab9d Creating DB /mnt/946C077D6C07597E/Documents/Coursework/5ETA0/Lab_3/toolstripCache/Local Storage/leveldb since it was missing.
-2024/03/27-19:31:01.080 8ab9d Reusing MANIFEST /mnt/946C077D6C07597E/Documents/Coursework/5ETA0/Lab_3/toolstripCache/Local Storage/leveldb/MANIFEST-000001
+2024/03/28-11:06:17.098 14cd7 Reusing MANIFEST /mnt/946C077D6C07597E/Documents/Coursework/5ETA0/tue-intro-telecom/Lab_3/toolstripCache/Local Storage/leveldb/MANIFEST-000001
+2024/03/28-11:06:17.100 14cd7 Recovering log #3
+2024/03/28-11:06:17.100 14cd7 Reusing old log /mnt/946C077D6C07597E/Documents/Coursework/5ETA0/tue-intro-telecom/Lab_3/toolstripCache/Local Storage/leveldb/000003.log 
+2024/03/28-11:13:04.359 16155 Level-0 table #5: started
+2024/03/28-11:13:04.393 16155 Level-0 table #5: 1100299 bytes OK
+2024/03/28-11:13:04.395 16155 Delete type=0 #3
