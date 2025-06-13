@@ -7,12 +7,11 @@
 %% 2nd section 
 % Run this section when making different levels for QAM.
 
-bits_per_symbol = ; %insert number of bits corresponding to 
+bits_per_symbol =  audioToBinary(wav, 8); %insert number of bits corresponding to 
                                    % the modulation levels you want to 
                                    % achieve
 
-binary = audioToBinary(wav, [bits_per_symbol]);  %Generating the binary input to transmit
-                                   
+                                  
 constellationPoints = generateQAMConstellation(bits_per_symbol); %Create the constellation points that match to this QAM level.
 
 %% 3rd section
@@ -27,3 +26,9 @@ constellationPoints = generateQAMConstellation(bits_per_symbol); %Create the con
 % subplot(2,1,2);
 % plot(t);
 % ylabel('t [s]');
+
+figure
+subplot(2,1,1);
+hold on;
+plot(BER1); plot(BER2); plot(BER3); plot(BER4);
+hold off;
